@@ -6,6 +6,6 @@ public class Introductions {
         Console console = System.console();
         // Welcome to the Introductions program!  Your code goes below here
       console.printf("Hello, my name is Tania\n");
-        
+      console.printf("Tania is learning how to write Java\n");
   }
 }
