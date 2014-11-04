@@ -6,7 +6,7 @@ public class Introductions {
         Console console = System.console();
         // Welcome to the Introductions program!  Your code goes below here
 	  String firstName = "Tania";
-      console.printf("Hello, my name is firstName\n");
-		  console.printf("firstName is learning how to write Java\n");
+      console.printf("Hello, my name is %s\n", firstName);
+		  console.printf("%s is learning how to write Java\n", firstName);
   }
 }
