@@ -5,8 +5,10 @@ public class Introductions {
     public static void main(String[] args) {
         Console console = System.console();
         // Welcome to the Introductions program!  Your code goes below here
-	  String firstName = "Tania";
+      String firstName = console.readLine("What is your name?  ");
       console.printf("Hello, my name is %s\n", firstName);
-		  console.printf("%s is learning how to write Java\n", firstName);
+      console.printf("Tania is learning how to write Java\n");
+  }
+}
   }
 }
